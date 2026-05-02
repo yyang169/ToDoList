@@ -21,19 +21,18 @@ export default function ProgressTracker({
 
       <div className="progress-stats">
         <div className="mini-card">
-          <h3>Completed Tasks</h3>
+          <h3>Tasks Completed</h3>
           <p>{completedTasks}</p>
         </div>
 
         <div className="mini-card">
-          <h3>Finished Sessions</h3>
+          <h3>Sessions Done</h3>
           <p>{sessionsCompleted}</p>
         </div>
       </div>
 
       <p className="progress-note">
-        Stay consistent: complete your tasks and finish study sessions to raise
-        your progress.
+        Complete tasks and finish timer sessions to see your progress go up.
       </p>
     </div>
   );

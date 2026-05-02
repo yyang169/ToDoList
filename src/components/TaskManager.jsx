@@ -61,14 +61,14 @@ export default function TaskManager({ tasks, setTasks }) {
   return (
     <div className="card">
       <div className="card-header">
-        <h2>Task Management</h2>
+        <h2>Task Management ({tasks.length})</h2>
         <button onClick={clearCompleted}>Clear Completed</button>
       </div>
 
       <div className="task-input-row">
         <input
           type="text"
-          placeholder="Add a study task..."
+          placeholder="What do you need to study?"
           value={taskInput}
           onChange={(e) => setTaskInput(e.target.value)}
           onKeyDown={(e) => e.key === "Enter" && addTask()}
@@ -78,7 +78,7 @@ export default function TaskManager({ tasks, setTasks }) {
 
       <div className="task-list">
         {tasks.length === 0 ? (
-          <div className="empty-box">No study tasks yet. Add one to get started.</div>
+          <div className="empty-box">Nothing here yet — try adding a task above.</div>
         ) : (
           tasks.map((task) => (
             <div className="task-item" key={task.id}>

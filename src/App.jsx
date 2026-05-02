@@ -48,6 +48,7 @@ export default function App() {
           clearInterval(interval);
           setIsRunning(false);
           setSessionsCompleted((count) => count + 1);
+          alert("Time is up! Good job.");
           return 0;
         }
         return prev - 1;

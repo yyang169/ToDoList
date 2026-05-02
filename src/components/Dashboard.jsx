@@ -8,8 +8,7 @@ export default function Dashboard({
       <div>
         <h1>Study Session Planner</h1>
         <p>
-          Organize your study tasks, focus with a timer, and track your
-          progress.
+          Keep track of your study tasks and sessions.
         </p>
       </div>
 

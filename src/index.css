@@ -15,7 +15,7 @@ body {
   padding: 28px;
 }
 
-/* Dashboard / Header */
+
 .dashboard {
   background: #2d2d2d;
   color: #f8f4ec;
@@ -44,7 +44,7 @@ body {
   font-size: 14px;
 }
 
-/* Stats */
+
 .stats {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -74,7 +74,7 @@ body {
   color: #f8f4ec;
 }
 
-/* Main layout */
+
 .main-grid {
   display: grid;
   grid-template-columns: 1.1fr 1fr;
@@ -87,10 +87,10 @@ body {
   gap: 26px;
 }
 
-/* Cards */
+
 .card {
   background: #fffdf8;
-  border-radius: 16px;
+  border-radius: 10px;
   padding: 26px;
   box-shadow: 0 8px 24px rgba(80, 70, 55, 0.12);
   border: 1px solid #e4ded2;
@@ -109,7 +109,7 @@ body {
   gap: 12px;
 }
 
-/* Inputs and buttons */
+
 input,
 button {
   padding: 12px 14px;
@@ -153,7 +153,7 @@ button:active {
   transform: translateY(0);
 }
 
-/* Softer main action buttons */
+
 .card-header button,
 .task-input-row button {
   background: #4a4035;
@@ -165,7 +165,7 @@ button:active {
   background: #5a4c3d;
 }
 
-/* Task section */
+
 .task-input-row {
   display: flex;
   gap: 10px;
@@ -225,7 +225,7 @@ button:active {
   padding: 9px 12px;
 }
 
-/* Lighter Edit button */
+
 .task-buttons button:first-child {
   background: #e8dcc4;
   color: #2d2d2d;
@@ -255,7 +255,7 @@ button:active {
   font-family: Arial, sans-serif;
 }
 
-/* Timer */
+
 .card label {
   display: block;
   margin-bottom: 8px;
@@ -298,7 +298,7 @@ button:active {
   gap: 10px;
 }
 
-/* Lighter Start button */
+
 .timer-buttons button:first-child {
   background: #d8c6a1;
   color: #2d2d2d;
@@ -308,7 +308,7 @@ button:active {
   background: #cdb78c;
 }
 
-/* Pause button */
+
 .timer-buttons button:nth-child(2) {
   background: #c8ad76;
   color: #2d2d2d;
@@ -318,7 +318,7 @@ button:active {
   background: #bca068;
 }
 
-/* Reset button */
+
 .timer-buttons button:nth-child(3) {
   background: #f1ede6;
   color: #2d2d2d;
@@ -335,7 +335,7 @@ button:active {
   font-family: Arial, sans-serif;
 }
 
-/* Progress */
+
 .progress-row {
   display: flex;
   justify-content: space-between;
@@ -400,7 +400,7 @@ button:active {
   font-family: Arial, sans-serif;
 }
 
-/* Mobile */
+
 @media (max-width: 900px) {
   .app {
     padding: 16px;
